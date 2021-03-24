@@ -28,7 +28,6 @@ setuptools.setup(
         "python-dotenv",
         "requests",
         "json",
-        "csv",
         "pandas"
         "schedule"
         "PyNaCl",

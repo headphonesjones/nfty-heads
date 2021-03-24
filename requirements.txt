@@ -1,7 +1,6 @@
 discord.py
 flask
 schedule
-csv
 json
 pandas
 os
