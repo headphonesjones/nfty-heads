@@ -2,6 +2,7 @@ discord.py
 flask
 schedule
 pandas
+gunicorn
 requests
 python-dotenv
 PyNaCl

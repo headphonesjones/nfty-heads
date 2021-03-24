@@ -8,7 +8,6 @@ import time
 import csv
 import pandas
 import server
-import sys
 from discord.ext import commands
 
 
@@ -42,8 +41,7 @@ async def on_message(message):
       matched_id = match_data['ASSET_ID'][message.content[1:]]
 
       print(matched_id)
-      sys.stdout.flush()
-      
+
       await message.channel.send(embed = searchPrompt(matched_id))
 
 

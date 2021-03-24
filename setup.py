@@ -26,6 +26,7 @@ setuptools.setup(
         "flask",
         "python-dotenv",
         "requests",
+        "gunicorn",
         "pandas"
         "schedule"
         "PyNaCl",

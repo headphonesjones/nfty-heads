@@ -5,9 +5,8 @@ def searchPrompt(message):
   
     last_sale_price, nfty_name, listing_price, img_url, os_url = Search.searchNFT(message)
 
-    print("1: ", last_sale_price, "2: ",nfty_name, "3: ", listing_price, "4: ",img_url, "5: ", os_url)
-    sys.stdout.flush()
-    
+    #print("1: ", last_sale_price, "2: ",nfty_name, "3: ", listing_price, "4: ",img_url, "5: ", os_url)
+
     embed=discord.Embed(title=nfty_name, url=os_url, color=0xFF5733)
     embed.set_image(url=img_url)
 
