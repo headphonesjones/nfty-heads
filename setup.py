@@ -24,7 +24,13 @@ setuptools.setup(
     install_requires=[
         "discord.py",
         "flask",
+        "os",
         "python-dotenv",
+        "requests",
+        "json",
+        "csv",
+        "pandas"
+        "schedule"
         "PyNaCl",
         "dnspython",
     ],

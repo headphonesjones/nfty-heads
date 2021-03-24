@@ -1,5 +1,11 @@
 discord.py
 flask
+schedule
+csv
+json
+pandas
+os
+requests
 python-dotenv
 PyNaCl
 dnspython
