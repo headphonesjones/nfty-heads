@@ -13,7 +13,7 @@ import pandas
 match =  'match.csv'
 
 client = discord.Client()
-token = os.getenv('TOKEN')
+token = process.env.TOKEN
 
 @client.event
 async def on_ready():
