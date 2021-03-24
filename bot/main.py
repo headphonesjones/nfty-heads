@@ -1,6 +1,5 @@
 import discord
 import os
-import discord
 from botPrompts import searchPrompt
 import requests
 import json
@@ -8,12 +7,14 @@ import schedule
 import time
 import csv
 import pandas
+import server
+from discord.ext import commands
 
 
 match =  'match.csv'
 
 client = discord.Client()
-token = process.env.TOKEN
+token = os.getenv("DISCORD_TOKEN")
 
 @client.event
 async def on_ready():
