@@ -24,7 +24,6 @@ setuptools.setup(
     install_requires=[
         "discord.py",
         "flask",
-        "os",
         "python-dotenv",
         "requests",
         "pandas"

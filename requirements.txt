@@ -2,7 +2,6 @@ discord.py
 flask
 schedule
 pandas
-os
 requests
 python-dotenv
 PyNaCl
