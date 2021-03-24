@@ -8,7 +8,7 @@ def main():
   return render_template('index.html')
 
 def run():
-  app.run(host='localhost', port=8080)
+  app.run(host='0.0.0.0', port=8080)
 
 def server():
   server = Thread(target=run)

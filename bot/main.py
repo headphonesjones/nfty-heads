@@ -19,7 +19,6 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 @client.event
 async def on_ready():
   print("Connection Successful")
-  sys.stdout.flush()
 
 @client.event
 async def on_message(message):
