@@ -1,7 +1,6 @@
 discord.py
 flask
 schedule
-json
 pandas
 os
 requests
