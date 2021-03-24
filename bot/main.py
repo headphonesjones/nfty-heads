@@ -14,7 +14,7 @@ from discord.ext import commands
 match =  'match.csv'
 
 client = discord.Client()
-token = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 @client.event
 async def on_ready():
@@ -49,4 +49,4 @@ async def on_message(message):
       await message.channel.send("Only 264 Super Nfty Floating Heads will ever be made. Please enter a number !1 - !264.")
 
 server.server()
-client.run(token)
+client.run(TOKEN)
