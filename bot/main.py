@@ -47,6 +47,5 @@ async def on_message(message):
     else:
       await message.channel.send("Only 264 Super Nfty Floating Heads will ever be made. Please enter a number !1 - !264.")
 
-
-
+server.server()
 client.run(token)
